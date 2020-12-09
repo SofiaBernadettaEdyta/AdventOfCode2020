@@ -6,4 +6,6 @@ if #available(OSX 10.13, *) {
 //    day4.solve()
 }
 let day5 = Day_5_2020()
-day5.solve()
+let day6 = Day_6_2020()
+
+day6.solve() //change day number to get sollution
