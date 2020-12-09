@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Solution_1_2020 {
+struct Day_1_2020 {
     
     func solve() {
         let path = Bundle.module.path(forResource: "input1", ofType: "txt")
@@ -31,7 +31,7 @@ struct Solution_1_2020 {
             }
         }
         
-        print("Solution 1A/2020: \(result)")
+        print("Solution 1A/2020:", result)
     }
     
     func solveB(array: [Int]) {
@@ -48,6 +48,6 @@ struct Solution_1_2020 {
             }
         }
         
-        print("Solution 1B/2020: \(result)")
+        print("Solution 1B/2020:", result)
     }
 }
