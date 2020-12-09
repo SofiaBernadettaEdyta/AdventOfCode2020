@@ -16,7 +16,7 @@ struct Solution_1_2020 {
         let array = sourceString.split(whereSeparator: \.isNewline).map { Int(String($0))! }
         
         solveA(array: array)
-        solveB(array: array )
+        solveB(array: array)
     }
     
     func solveA(array: [Int]) {
@@ -51,8 +51,3 @@ struct Solution_1_2020 {
         print("Solution 1B/2020: \(result)")
     }
 }
-
-
-//
-
-//print(newResult)
