@@ -9,5 +9,6 @@ let day5 = Day_5_2020()
 let day6 = Day_6_2020()
 
 let day11 = Day_11_2020()
+let day12 = Day_12_2020()
 
-day11.solve() //change day number to get sollution
+day12.solve() //change day number to get sollution
